@@ -1,0 +1,18 @@
+1.What is Wild Pointer, Void Pointer and Null Pointer?
+A:
+	Wild Pointer: The pointer which is freed and not assigned to NULL is called Wild pointer.
+		free(*ptr);
+		
+	Void Pointer: The pointer which can be typecasted into any data type is called Void Pointer.if we use the pointer without typecasting it gives error.
+		void *ptr;
+		void *ptr=(char*)ptr;
+	Null Pointer: The pointer which is assigned with Null value  is called Null Pointer.
+		*ptr = '\0';
+
+2.How free is deallocating the memory, without mentioning size as an argument?
+	When we are allocating the memory with the use of pointer.The pointer accomidate the more than the required size to its allocation 	i,e.,Word size more.Here the word size determine the size allocated to it and stores it value in the extra word.
+	so,when we tried to free the pointer memory without giving the size of pointer the size stored in Extra word used or dereferenced to  	deallocate the size of memory.
+			  
+
+	
+

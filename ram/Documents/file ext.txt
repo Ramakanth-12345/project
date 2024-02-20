@@ -1,0 +1,63 @@
+﻿
+
+Sridhar has developed technical communication artifacts and has a master's degree in Software Systems.
+In this lesson, we will explore the three major types of Linux filesystems: ext2, ext3 and ext4. We will compare their features so that you can format your hard disk's filesystem based on your requirements. We will then learn how to mount and unmount the filesystems. Updated: 02/14/2023
+Linux Filesystems
+
+For simplicity, visualize the files on a Linux computer as a tree-based hierarchy, with a forward slash (/) representing the root. This is called the Linux filesystem, and it operates as follows:
+
+    Every file in Linux is represented by an inode. An inode is the combination of an identification number and some additional file description data, some of which includes:
+    1.         The file's location on the hard drive
+    2.         The file's creation and modification dates
+    3.         The file's owner
+    4.         The file's size
+    5.          The file's permissions
+    Anything other than a process is a file. Examples include regular files (such as a text document), directories, special files (such as input/output devices), links, sockets, pipes and block devices.
+    A partition contains the set of all file types. Data partitions host all the files and swap partitions contain expanded computer memory.
+
+The Role of Filesystems
+
+What is the role of a filesystem? In simple terms, the filesystem manages how files are stored and accessed on devices.
+
+For example, imagine a library of books, maps, guides and newspapers all spread out across a building on multiple floors and in multiple rooms. 
+If you want to look for a book, you need a way to find out 1) if it's available, and 2) where it's located. 
+The librarian can help you with this, by implementing a complex system of catalogs and tags.
+
+The items in a library are akin to the file hierarchy on a Linux system. The filesystem does the job of a librarian. It fetches files when needed and lets you take actions on them. Without a librarian (filesystem), all the books (files) would be useless.
+
+Therefore, you want a good filesystem to:
+
+    Be fast at accessing files on all kinds of devices.
+    Be efficient in storing files on disk drives.
+
+Major Filesystem Types
+
+There are three major Linux filesystems: ext2, ext3 and ext4. In the sections below, we will discuss the key features of each.
+
+
+    • The ext2 Filesystem:
+The ext2 filesystem (second extended filesystem) was created in 1993. It was based on the Minix filesystem created in 1987, and the ext filesystem created in 1992. These original filesystems were good starting points, but they soon ran into limitations as Linux grew in popularity and usage. Some of the advantages of ext2 are:
+    1. ext2 is suitable for flash drives and USB drives.
+    2. A file can be between 16 GB and 2 TB in size.
+    3. An ext2 filesystem can be between 2 TB and 32 TB in size.
+
+There are also some disadvantages that come with using the ext2 filesystem:
+    ext2 filesystems are likely to become corrupt during power failures and computer crashes when data is being saved to the disk.
+    ext2 filesystems face data fragmentation issues which hinder performance.
+      
+    • The ext3 Filesystem
+
+The ext3 filesystem (third extended filesystem) was introduced in November of 2001. While file sizes and total filesystem size remained the same as with ext2, there were also many improvements:
+
+    1. ext3 allows journaling. Journaling creates a separate area of the filesystem where all file changes are tracked. The Journal can then be used in case of a power failure or system crash to restore data.
+    2. A directory in ext3 can have up to 32,000 subdirectories.
+
+    • The ext4 Filesystem
+
+The ext4 filesystem (fourth extended Filesystem) was introduced in 2008. Although considered an interim filesystem until a new filesystem could be developed, ext4 brought the following benefits:
+
+    1. A directory can have up to 64,000 subdirectories.
+    2. A file can be up to 16 TB in size.
+    3. An ext4 filesystem can be up to 1 EB (Exabyte) in size, although most Linux distributions recommend a maximum filesystem size of 100 Tb.
+    4. ext4 reduces fragmentation issues and increases performance.
+    5. ext4 provides an option to turn off the journaling feature.

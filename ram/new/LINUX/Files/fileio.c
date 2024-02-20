@@ -1,0 +1,19 @@
+#include"header.h"
+main()
+{
+	int fd,a[5],i;
+	//close(0);
+	fd=open("dat",O_RDONLY);
+	if(fd<0)
+	{
+		perror("open");
+		return;
+	}
+	for(i=0;i<5;scanf("%d",&a[i]),i++);
+	for(i=0;i<5;i++)
+	{
+		printf("%d",a[i]);
+	}
+	printf("\n");
+	close(fd);
+}

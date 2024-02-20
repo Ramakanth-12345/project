@@ -1,0 +1,73 @@
+
+Android Class Toopics
+
+Android studio
+SDK
+create project
+project structure
+
+
+UI Interface -> XML
+Layouts         UIElements
+constraint      Textview
+Linear          EditText
+Frame           Button
+relative	Imageview
+Table		Checkout
+Grid		RadioButtons
+Coordinates	Progressbar
+		SeekBar
+		RatingBar
+
+Add Constraints
+Center Horizontal
+center Vecrtical
+Center Vertical in Parent
+Center Horizontal in Parent
+Baselines
+Chainstyle
+Chainmode
+GuideLines
+AspectRatio
+OverLapping
+Groups
+
+
+Orenitation->
+Vertical 
+Horizontal(default)
+
+
+Basics of Kotlin
+How to declare the id
+Hoe to write onclick
+How to read the values from input field
+what is Toast
+what is intent
+what are the different types of intents
+what is Activity life cycle
+
+
+Oncreate()
+onstart()
+OnResume()
+Onpause()
+Onstop()
+OnRestart()
+OnDestory()
+
+Spinner     
+Listview
+Gridview
+
+Simple
+    • 1-array
+Custom
+    • 1 or more array
+
+Adapters
+    • Array Adapters
+    • Base Adapters
+
+Custom alert dialog
+Simple alert dialog 

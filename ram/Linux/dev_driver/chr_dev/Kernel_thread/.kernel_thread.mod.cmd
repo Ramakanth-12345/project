@@ -1,0 +1,1 @@
+cmd_/home/ramakanth/Linux/dev_driver/chr_dev/Kernel_thread/kernel_thread.mod := { echo  /home/ramakanth/Linux/dev_driver/chr_dev/Kernel_thread/kernel_thread.o;  echo; } > /home/ramakanth/Linux/dev_driver/chr_dev/Kernel_thread/kernel_thread.mod
