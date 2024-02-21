@@ -1,1 +1,0 @@
-cmd_/home/ramakanth/Linux/dev_driver/chr_dev/linkedlist/linked_list.mod := { echo  /home/ramakanth/Linux/dev_driver/chr_dev/linkedlist/linked_list.o;  echo; } > /home/ramakanth/Linux/dev_driver/chr_dev/linkedlist/linked_list.mod

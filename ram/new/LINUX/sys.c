@@ -1,9 +1,0 @@
-#include<stdio.h>
-main()
-{
-	printf("Hello..\n");
-	system("ls");
-	system("cal");
-	system("pwd");
-	printf("hi..\n");
-}
