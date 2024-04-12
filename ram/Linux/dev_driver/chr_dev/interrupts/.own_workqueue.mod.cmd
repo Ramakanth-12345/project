@@ -1,1 +1,0 @@
-cmd_/home/ramakanth/Linux/dev_driver/chr_dev/interrupts/own_workqueue.mod := { echo  /home/ramakanth/Linux/dev_driver/chr_dev/interrupts/own_workqueue.o;  echo; } > /home/ramakanth/Linux/dev_driver/chr_dev/interrupts/own_workqueue.mod
